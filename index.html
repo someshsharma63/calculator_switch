@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator switch</title>
+</head>
+<body>
+    <script>
+        const num1 = Number(prompt('Enter first value'));
+        const operator = prompt('Enter operator');
+        const num2 = Number(prompt('Enter second value'));
+
+        switch(operator) {
+    case '+':
+         result = num1 + num2;
+        console.log(result);
+        break;
+
+    case '-':
+         result = num1 - num2;
+        console.log(result);
+        break;
+
+    case '*':
+         result = num1 * num2;
+        console.log(result);
+        break;
+
+    case '/':
+         result = num1 / num2;
+        console.log(result);
+        break;
+
+    default:
+        console.log('Please enter the correct operator');
+        break;
+}
+
+
+    </script>
+</body>
+</html>
